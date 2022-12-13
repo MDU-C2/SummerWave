@@ -1,0 +1,42 @@
+Reference values from dw1000 user manual 0x1E Table 20 page 109 <--- ta upp i rapporten att vi använt referensvärden
+-41.3 dBm/Mhz
+
+        _Transmit Power_
+CH 1    16 MHZ --- 0x75757575L - 0111 0101
+        64 MHZ --- 0x67676767L - 0110 0111
+
+CH 3    16 MHZ --- 0x6F6F6F6FL - 0110 1111
+        64 MHZ --- 0x8B8B8B8BL - 1000 1011
+
+CH 4    16 MHZ --- 0x5F5F5F5FL - 0101 1111
+        64 MHZ --- 0x9A9A9A9AL - 1001 1010
+
+CH 5    16 MHZ --- 0x48484848L - 0100 1000
+        64 MHZ --- 0x85858585L - 1000 0101
+
+CH 7    16 MHZ --- 0x92929292L - 1001 0010
+        64 MHZ --- 0xD1D1D1D1L - 1101 0001
+
+
+4 octets
+
+
+OUT OF THE SCOPE:
+
+Spectrum analysis is required for calibration
+Package Error Rate sniffing
+
+
+Other important info:
+Transmit power values @ reference values -41.3 dBm/Mhz
+range sample 1000 ranges every meter.
+
+
+FUTURE WORK:
+sniffing
+Calibration antenna
+Calibration oscillator
+Calibration TX-Power
+Develop own pcb not arduino
+
+

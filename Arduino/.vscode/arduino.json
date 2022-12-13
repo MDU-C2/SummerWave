@@ -1,0 +1,5 @@
+{
+    "board": "arduino:samd:mkrzero",
+    "port": "COM4",
+    "sketch": "BasicReceiver68\\BasicReceiver68.ino"
+}
